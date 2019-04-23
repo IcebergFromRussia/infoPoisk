@@ -60,6 +60,6 @@ for ($i = 1;$i<101;$i++){
     echo  ' создаём файл ';
     $fp = fopen('files/tf/document'.$i.' words tf.txt', "w") or die("невозможно создать файл");
     echo  ' записываем ';
-    fwrite($fp, serialize($words));
+    fwrite($fp, serialize($tf));
     echo  "\n";
 }
