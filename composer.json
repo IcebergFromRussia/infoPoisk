@@ -1,0 +1,13 @@
+{
+    "name": "albert/poisk",
+    "authors": [
+        {
+            "name": "Albert",
+            "email": "adalbert.iceberg@gmail.com"
+        }
+    ],
+    "require": {
+        "imangazaliev/didom": "^1.14",
+        "ladamalina/lingua-stem-ru": "dev-master"
+    }
+}
