@@ -24,4 +24,5 @@ for ($i = 1; $i<101;$i++){
 echo 'записываем';
 $fp = fopen('files/index/index.txt', "w") or die("невозможно создать файл");
 fwrite($fp, serialize($wordsMap));
+fclose($fp);
 var_dump($wordsMap);

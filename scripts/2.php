@@ -44,5 +44,6 @@ for ($i = 1;$i<101;$i++){
     $fp = fopen('files/words/document'.$i.' words.txt', "w") or die("невозможно создать файл");
     echo  ' записываем ';
     fwrite($fp, serialize($words));
+    fclose($fp);
     echo  "\n";
 }
